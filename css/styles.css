@@ -1,0 +1,97 @@
+/* Цвет основного текста #212121 */
+/* Цвет вторичного текста #757575 */
+/* Белый #FFFFFF */
+/* Цвет акцента #2196F3 */
+/* Доп цвет кнопки #188CE8 */
+/* Цвет контактов в футере rgba(255, 255, 255, 0,6) */
+
+/* Фон верхней линии #FFFFFF */
+/* Фон шапки и футера #2F303A */
+/* Основной фон #FFFFFF */
+/* Вторичный фон светлый #F5F4FA */
+
+
+
+
+:root {
+  --primary-text-color: #212121;
+  --secondaru-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --white-color: #ffffff;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+/* Site navigation */
+
+.logo-link-web {
+  color: var(--accent-text-color);
+}
+.logo-link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  Font-style: Bold
+Font size: 26px
+Line height: 31px
+Line height: 100%
+Align: Left
+Vertical align: Top
+Letter spacing: 3%
+}
+.list {
+  list-style: none;
+}
+.nav-list {
+  color: inherit;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+}
+
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: var(--accent-text-color);
+}
+.nav-list-link.current {
+  color: var(--accent-text-color);
+}
+.contact-mail
+/* Hero */
+
+.hero-title {
+  color: var(--primary-text-color);
+}
+.service-btn {
+  background-color: var(--accent-text-color);
+  color: var(--primary-white-color);
+}
+
+/* Our activity */
+
+.activity-title {
+  color: #212121;
+}
+
+/* Buttons */
+
+/* Our team */
+
+/* Footer */
+
+/* Portfolio */
+
+.btn {
+  color: var(--primary-text-color);
+  background-color: #fff;
+}
+.btn:hover,
+.btn:focus {
+  color: var(--accent-text-color);
+}
